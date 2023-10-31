@@ -1,7 +1,6 @@
 import os
 import shutil
 import subprocess
-# from winshell import recycle_bin, undelete # only for windows
 import sys
 from os.path import expanduser, isdir, isfile
 
@@ -32,7 +31,6 @@ class FileManager(UiMainWindow, QMainWindow):
         self.file_system.setRootPath(QDir.rootPath())  # default open folder is root
         self.tree_view.setModel(self.file_system)
         self.tree_view.setColumnWidth(0, 160)
-        # self.tree_view.setRootIndex(self.file_system.index(self.home_directory))
         self.tree_view.setSortingEnabled(True)  # now we can sort by name, size, type and modification date
 
     def _set_logs(self, logs):  # we can add logs only inside the class (private method)
