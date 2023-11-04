@@ -7,7 +7,7 @@ Alpha version of a file manager for Windows and Linux. The first student project
 
 ### Description of capabilities
 <li>The file manager has a graphical interface and a tree view of the file system</li>
-<li>At the moment, bar menu at the top of the window and a context menu when right-clicking are implemented</li>At the moment, bar menu at the top of the window and a context menu when right-clicking are implemented
+<li>At the moment, bar menu at the top of the window and a context menu when right-clicking are implemented</li>
 <li>In the menu bar there is a "File" menu, which has an "Exit" function</li>
 <li>There is an "Edit" menu with "Copy", "Paste", "Cut", "Delete", and "Cancel" functions</li>
 <li>The above functions are available in the context menu by right-clicking</li>
